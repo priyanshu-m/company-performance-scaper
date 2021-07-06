@@ -57,7 +57,7 @@ for i,string in enumerate(company.strings):
     if i == 11:
         Company_info["Industry"] = string
     if i == 14:
-        Company_info["full_time_employees"] = string
+        Company_info["Full Time Employees"] = string
         
     
 print(Company_info)
